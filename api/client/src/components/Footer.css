@@ -1,0 +1,34 @@
+footer {
+    background-color: black;
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(223, 213, 213);
+}
+
+.welcoming {
+ margin-left: 1.4rem;
+
+}
+
+.footericons a {
+    margin: 2rem;
+    font-size: 1.2rem;
+    
+}
+.footericons a:hover {
+    background-color: rgb(182, 182, 17);
+    
+}
+
+.copyright p{
+    
+    margin: 1.5rem;
+    
+}
+.footer-logo h3{
+    margin-top: 0.5rem;
+    font-family: 'Festive', cursive;
+}

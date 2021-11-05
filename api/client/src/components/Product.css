@@ -1,0 +1,93 @@
+
+
+.titles {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+   
+}
+.title {
+    font-family: 'Festive', cursive;
+    margin-top: 1rem;
+    
+}
+
+.welcome {
+    margin: 20px 50px;
+    
+}
+
+
+.list-product {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.list-product li {
+    list-style-type: none;
+    padding: 4px;
+
+}
+.carts {
+    display: flex;
+    justify-content: space-between;
+}
+.singlebutton button {
+    padding: 4px 8px;
+    border: none;
+    background-color: rgb(182, 182, 17);
+    color: white;
+    
+}
+
+.singlebutton button:hover {
+    color:rgb(182, 182, 17) ;
+    background-color: white ;
+    border: 1px solid rgb(182, 182, 17);
+    padding: 4px 8px;
+}
+
+.singletitle{
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Festive', cursive;
+}
+.singleprice {
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Popins', sans-serif;
+}
+.singleimg img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:600px ) {
+.title {
+    font-size: 25px;
+}
+.welcome {
+    font-size: 15px;
+}
+.list-product {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.singlebutton button {
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(182, 182, 17);
+    color: white;
+    
+}
+
+}
